@@ -1,0 +1,6 @@
+Finding,Evidence,Severity,Decision,Reason
+"Redis versus no external services","The feature request requires Redis, while the README promises no external services and the workshop setup uses only localhost.","","",""
+"Rate-limit scope","The feature request names /classify, while the execution plan says rate limiting applies to all API endpoints.","","",""
+"Threshold boundaries","The request defines a human-review range of 0.4–0.7 but does not state whether the endpoints are inclusive.","","",""
+"Backward compatibility","The request adds confidence and needs_review while requiring existing /classify consumers to remain compatible.","","",""
+"Dependency sequencing","The plan must identify which work can proceed in parallel and what must wait for integration verification.","","",""

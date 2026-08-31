@@ -1,0 +1,6 @@
+{
+  "policies": [
+    { "name": "block-unsafe", "when": { "label": "unsafe" }, "action": "block" }
+  ],
+  "defaultAction": "allow"
+}
